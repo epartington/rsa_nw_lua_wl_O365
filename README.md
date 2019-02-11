@@ -1,14 +1,14 @@
 # RSA NetWitness Lua Whitelist Office365
 whitelist office365 traffic parser and script
 uploaded 2 sets of files
-## script
+## Script
 python script to connect to the office365 API endpoint to collect the data to generate the content for the whitelists
 
-## content
+## Content
 output of the script are 3 things
-### lua parser
+### Lua Parser
 this contains the hostnames that are returned from the API and added to the lua parser automactically
-### ip feeds
+### IP feeds
 2 IP feeds that contain the IPv4 and v6 addresses for the O365 endpoints
 
 the data is intended to be written to the filter key in Netwitness that can be used to provide a filter point for data to include or exclude different data from investigations.
