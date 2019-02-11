@@ -1,6 +1,10 @@
 # RSA NetWitness Lua Whitelist Office365
 whitelist office365 traffic parser and script
 uploaded 2 sets of files
+
+Pulls from this API
+https://docs.microsoft.com/en-us/office365/enterprise/office-365-ip-web-service
+
 ## Script
 python script to connect to the office365 API endpoint to collect the data to generate the content for the whitelists
 
